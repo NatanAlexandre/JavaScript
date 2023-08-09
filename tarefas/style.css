@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen {
+@media screen and (max-width: 627px){
 
     * {
         padding: 0px;
@@ -16,6 +16,8 @@
 
     body {
         text-align: center;
+        background-image: linear-gradient(to bottom, darkred, black);
+        background-attachment: fixed;
     }
 
     main {
@@ -29,6 +31,94 @@
         margin-left: auto;
         margin-right: auto;
         border-collapse: collapse;
+        background-color: white;
+    }
+    
+    th, tr, td {
+        border: 1px solid black;
+        padding: 1px;
+        text-align: center;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    .tarefa {
+        width:800px;
+        min-width: 100px;
+    }
+
+    .feito {
+        width: 60px;
+    }
+
+    .data {
+        width: 200px;
+    }
+
+    input.tarefa_input {
+        width: 99%;
+    }
+
+    ::placeholder {
+        text-align: center;
+    }
+
+    button {
+        width: 100px;
+        margin-top: 50px;
+        padding: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 60% 0%;
+        background-color: cadetblue;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.718);
+        
+    }
+
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (min-width: 627px){
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+
+    body {
+        text-align: center;
+        background-image: linear-gradient(to bottom, darkred, black);
+        background-attachment: fixed;
+    }
+
+    main {
+        padding: 50px;
+        margin: 50px;
+        
+    }
+
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        background-color: white;
     }
     
     th, tr, td {
@@ -57,9 +147,18 @@
         width: 99%;
     }
 
+    ::placeholder {
+        text-align: center;
+    }
+
     button {
         width: 100px;
         margin-top: 50px;
+        padding: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 60% 0%;
+        
     }
 
 

@@ -5,7 +5,7 @@ function AdicionarLinha(){
     var feito = linha.insertCell(1)
     var data = linha.insertCell(2)
     
-    tarefa.innerHTML = '<input type="text" class="tarefa_input">'
+    tarefa.innerHTML = '<input type="text" class="tarefa_input" placeholder="Digite sua tarefa"'
     feito.innerHTML = '<input type="checkbox" name="feito">'
     data.innerHTML = '<input type="date">'
 }
