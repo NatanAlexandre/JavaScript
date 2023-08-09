@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Operações Matemáticas</title>
+    <script src="code.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Site para teste de conhecimento de JavaScript</h1>
+        <h2>Operações Matemáticas</h2>
+    </header>
+    <main>
+        <p id="texto">
+            <input type="number" name="num" id="num" placeholder="Digite um número">
+            <select name="opcoes" id="opcoes">
+                <option value="novalue">Operação</option>
+                <option value="mais">+</option>
+                <option value="menos">-</option>
+                <option value="dividir">/</option>
+                <option value="multiplicar">*</option>
+            </select>
+            <input type="number" name="num1" id="num1" placeholder="Digite outro número">
+            <br>
+            <button type="button" id="botao" onclick="calcularResultado()">Resultado</button>
+             <button type="button" id="clear" onclick="Limpar()">Limpar</button>
+        </p>
+        <div id="res">
+            <h1>Selecione uma operação matemática para o resultado</h1>
+        </div>
+    </main>
+    <footer>
+        <p>Criado por Natan Alexandre</p>
+    </footer>
+</body>
+</html>

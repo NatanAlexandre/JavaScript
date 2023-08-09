@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+}
+
+body {
+    background-image: linear-gradient(to bottom, darkblue, black);
+    background-attachment: fixed;
+}
+
+main {
+    padding: 50px;
+    margin: 50px;
+}
+
+input {
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+option {
+    text-align: center;
+}
+
+select {
+    height: 30px;
+    border-radius: 30px;
+}
+
+button {
+    margin: 30px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+p#texto {
+    text-align: center;
+}
+
+div#res {
+    text-align: center;
+    padding: 40px;
+}
+
+h1, h2, p {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
