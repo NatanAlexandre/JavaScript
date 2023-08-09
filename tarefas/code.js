@@ -12,5 +12,9 @@ function AdicionarLinha(){
 
 function ApagarLinha(){
     var tabela = window.document.querySelector('tbody')
-    var linha = tabela.deleteRow(tabela.rows)
+    var totalLinhas = tabela.rows.length;
+
+    if (totalLinhas > 0) {
+        tabela.deleteRow(totalLinhas - 1);
+    }
 }
