@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media screen {
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    main {
+        padding: 50px;
+        margin: 50px;
+        
+    }
+
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+    }
+    
+    th, tr, td {
+        border: 1px solid black;
+        padding: 1px;
+        text-align: center;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    .tarefa {
+        width:800px;
+    }
+
+    .feito {
+        width: 60px;
+    }
+
+    .data {
+        width: 200px;
+    }
+
+    input.tarefa_input {
+        width: 99%;
+    }
+
+    button {
+        width: 100px;
+        margin-top: 50px;
+    }
+
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+}
+
