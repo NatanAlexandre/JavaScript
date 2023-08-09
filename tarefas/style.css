@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Quicksand&family=Shadows+Into+Light&display=swap');
+
+
 @media screen and (max-width: 627px){
 
     * {
@@ -26,6 +31,10 @@
         
     }
 
+    h1, h2, p {
+        font-family: 'Handjet', cursive;
+        font-family: 'Shadows Into Light', cursive;
+    }
 
     table {
         margin-left: auto;
@@ -38,6 +47,14 @@
         border: 1px solid black;
         padding: 1px;
         text-align: center;
+    }
+
+    th {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Handjet', cursive;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Shadows Into Light', cursive;
     }
 
     td {
@@ -113,6 +130,14 @@
         
     }
 
+    h1, p {
+        font-family: 'Handjet', cursive;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    h2 {
+        display: none;
+    }
 
     table {
         margin-left: auto;
@@ -125,6 +150,12 @@
         border: 1px solid black;
         padding: 1px;
         text-align: center;
+    }
+
+    th {
+        font-family: 'Handjet', cursive;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Shadows Into Light', cursive;
     }
 
     td {
@@ -157,8 +188,9 @@
         padding: 10px;
         margin-left: 50px;
         margin-right: 50px;
-        border-radius: 60% 0%;
-        
+        border-radius: 10% 10%;
+        background-color: cadetblue;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.718);
     }
 
 
