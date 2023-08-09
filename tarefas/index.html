@@ -18,29 +18,31 @@
                 <tr>
                     <th class="tarefa">Tarefa</th>
                     <th class="feito">Feito</th>
-                    <th class="data">Data</th>
                 </tr>
            </thead>
            <tbody>
                 <tr>
                     <td class="tarefa"><input type="text" class="tarefa_input" placeholder="Digite sua tarefa"></td>
                     <td><input type="checkbox" name="feito"></td>
-                    <td><input type="date"></td>
                 </tr>
                 <tr>
                     <td class="tarefa"><input type="text" class="tarefa_input" placeholder="Digite sua tarefa"></td>
                     <td><input type="checkbox" name="feito"></td>
-                    <td><input type="date"></td>
                 </tr>
                 <tr>
                     <td class="tarefa"><input type="text" class="tarefa_input" placeholder="Digite sua tarefa"></td>
                     <td><input type="checkbox" name="feito"></td>
-                    <td><input type="date"></td>
                 </tr>
            </tbody>
         </table>
-        <button onclick="AdicionarLinha()"><strong>Adicionar Linha</strong></button>
-        <button onclick="ApagarLinha()"><strong>Apagar Linha</strong></button>
+        <div id="botoes">
+            <button onclick="AdicionarLinha()">
+                <strong>Adicionar Linha</strong>
+            </button>
+            <button onclick="ApagarLinha()">
+                <strong>Apagar Linha</strong> 
+            </button>
+        </div>
     </main>
     <footer>
         <p>Criado por Natan Alexandre</p>
