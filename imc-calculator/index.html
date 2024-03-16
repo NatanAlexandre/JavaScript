@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora IMC</h1>
+    </header>
+    <main>
+        <img class="pessoa" src="./imgs/pessoa.png" alt="pessoa">
+        <div class="container">
+            <form>
+                <div class="inf">
+                    <h1 class="info">Informações</h1>
+                </div>
+                <div class="imc_camp">
+                    <div class="peso">
+                        <label for="idpeso">Peso: </label>
+                        <input type="text" name="peso" id="idpeso" placeholder="Peso" autocomplete="off">
+                    </div>
+                    <div class="altura">
+                        <label for="idaltura">Altura: </label>
+                        <input type="text" name="altura" id="idaltura" placeholder="Altura" autocomplete="off">
+                    </div>
+                </div>
+                <div id="imc_resultado" class="resultado">
+                    <div class="result">
+                        <h1 class="title">Resultado</h1>
+                    </div>
+                    <h2>Valor IMC: </h2>
+                    <h2>Status: </h2>
+                </div>
+                <div class="btns">
+                    <input type="button" name="btn_calcular" value="Calcular" class="button" onclick="calcular()">
+                    <input type="button" name="btn_calcular" value="Apagar" class="button" onclick="reset()">
+
+                </div>
+            </form>
+        </div>
+        <img class="balanca" src="./imgs/balanca.png" alt="balança">
+    </main>
+    <footer>
+        <p>Developed By Natan Alexandre</p>
+    </footer>
+    <script src="./js/code.js"></script>
+</body>
+</html>
