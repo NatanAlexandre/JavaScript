@@ -35,3 +35,4 @@ function limpar() {
     let clear = document.getElementById("imc_resultado");
     clear.innerHTML = `<h1 style="background-color: #364fdb9a;">Resultado</h1><h2>Valor IMC: </h2><h2>Status: </h2>`;
 }
+
