@@ -69,7 +69,7 @@ img {
     align-items: center;
     width: 400px;
     height: 400px;
-    background-image: url(/src/img/fanta-fruit-orange.png);
+    background-image: url(./src/img/fanta-fruit-orange.png);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
