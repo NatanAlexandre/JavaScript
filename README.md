@@ -4,4 +4,5 @@
   <li><a href="https://natanalexandre.github.io/JavaScript/operacoes-matematicas/">Operações Matemáticas</a>: Calculadora simples</li>
   <li><a href="https://natanalexandre.github.io/JavaScript/tarefas/">Tarefas</a>: To do List</li>
   <li><a href="https://natanalexandre.github.io/JavaScript/imc-calculator/">Calculadora IMC</a>: Calculos IMC</li>
+  <li><a href="https://natanalexandre.github.io/JavaScript/fanta-page/">Fanta Page</a>: Mudança de style via código</li>
 </ul>
