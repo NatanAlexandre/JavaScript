@@ -37,7 +37,7 @@ const can_color = (name) => {
         header.style.backgroundColor = '#d2570a'
         footer.style.backgroundColor = '#d2570a'
         main.style.backgroundColor = '#eb6d1f'
-        can.style.backgroundImage = 'url(/src/img/fanta-fruit-orange.png)'
+        can.style.backgroundImage = 'url(./src/img/fanta-fruit-orange.png)'
     } else if (name == 'grape'){
         can.style.backgroundColor = '#7B479A';
         ball.style.backgroundColor = '#bc7fe2'
@@ -45,7 +45,7 @@ const can_color = (name) => {
         header.style.backgroundColor = '#490e6d'
         footer.style.backgroundColor = '#490e6d'
         main.style.backgroundColor = '#7B479A'
-        can.style.backgroundImage = 'url(/src/img/fanta-can-grape.png)'
+        can.style.backgroundImage = 'url(./src/img/fanta-can-grape.png)'
     } else if (name == 'strawberry') {
         can.style.backgroundColor = '#EC292D';
         ball.style.backgroundColor = '#d85f61'
@@ -53,7 +53,7 @@ const can_color = (name) => {
         header.style.backgroundColor = '#89080a'
         footer.style.backgroundColor = '#89080a'
         main.style.backgroundColor = '#EC292D'
-        can.style.backgroundImage = 'url(/src/img/fanta-can-strawberry.png)'
+        can.style.backgroundImage = 'url(./src/img/fanta-can-strawberry.png)'
     } else if (name == 'berry') {
         can.style.backgroundColor = '#0080d4';
         ball.style.backgroundColor = '#789de8'
@@ -61,7 +61,7 @@ const can_color = (name) => {
         header.style.backgroundColor = '#002780'
         footer.style.backgroundColor = '#002780'
         main.style.backgroundColor = '#0080d4'
-        can.style.backgroundImage = 'url(/src/img/fanta-fruit-berry.png)'
+        can.style.backgroundImage = 'url(./src/img/fanta-fruit-berry.png)'
     }
 }
 
